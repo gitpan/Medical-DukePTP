@@ -9,11 +9,11 @@ Medical::DukePTP - Calculate the Duke pre-test probability of CAD
 
 =head1 VERSION
 
-Version 0.1
+Version 0.2
 
 =cut
 
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 
 
 =head1 SYNOPSIS
@@ -71,7 +71,7 @@ Optional parameters
 
     chest_pain     : 'typical' or 'atypical'
     previous_MI    : history of previous Myocardial Infarction (1 for yes)
-    ECQ_Q_wave     : ECG Q waves of previous Myocardial Infarction (1 for yes) 
+    ECG_Q_wave     : ECG Q waves of previous Myocardial Infarction (1 for yes) 
     ECG_ST-T_wave  : ECG ST changes at rest (1 for yes)
     smoking        : current smoker (1 for yes)
     hyperlipidemia : cholesterol > 6.5 mmol/l (>250 mg/dl) (1 for yes)
